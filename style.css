@@ -1,0 +1,48 @@
+body {
+    color: #555;
+    background-color: #8A2BE2;
+}
+
+.header h3 {
+    color: #AAA;
+    text-align: center;
+}
+
+.list-wrapper {
+    background-color: #FFF;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.list .list-item {
+    padding: 10px 5px;
+    display: flex;
+}
+
+.list .list-item__content {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+li:hover {
+    color: #8A2BE2;
+}
+
+.person-details img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.person-details {
+    text-align: center;
+}
+
+
